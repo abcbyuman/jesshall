@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(255, 221, 170);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    
+    
+  }
+
+  .flex-container1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    
+  }
+
+  .navItem {
+    flex: 1 1 auto;
+    text-align: center;
+    margin: 10px;
+    color: #ced4da;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex: 1 1 auto;
+    
+  }
+
+  .navbarNav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-right: 0;
+    padding-left: 0;
+    position: static;
+    
+  }
+
+.header-1 {
+  color: rgb(29, 29, 29);
+  font-size:medium;
+}
+
+.header-2 {
+  color: black;
+}
+
+.aboutMe {
+  overflow: auto;
+}
+
+.Tableau {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.parent{
+  flex-direction: row;
+  
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
+  display:inline-flex;
+  width: 100%;
+}
+
+.child1{
+  width: 50%;
+  border:1px solid black;
+}
+
+.child2{
+  width: 50%;
+  border:1px solid black;
+  background: white;
+  margin-bottom: 3%;
+}

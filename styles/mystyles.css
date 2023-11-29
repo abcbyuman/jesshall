@@ -1,0 +1,85 @@
+body {
+    background-image: url("../images/sean-pollock-PhYq704ffdA-unsplash\ \(1\).jpg");
+    
+}
+
+.text-center {
+    text-align: left;
+    margin-left: 50px;
+}
+
+#mainNav {
+    background-color: var(--bs-gray-900);
+}
+
+.navbar {
+    position: sticky; top:0;
+    z-index: 2;
+}
+
+.customLink {
+    color: rgb(46, 81, 240) ;
+}
+
+.spaceVideo {
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color:#e6a756;
+    border:2px solid #e6a756;
+    box-shadow: 0 0 0 10px #e6a756;
+    margin-bottom: 70px;
+}
+
+.footer {
+    background-color: var(--bs-gray-900);
+}
+
+.SaltFlats {
+    width: 80%;
+   
+
+}
+
+h5 {
+    margin-top: 50px;
+
+}
+
+.workHeader {
+    margin-top: 20px;
+    font-weight: 630;
+}
+
+.Focus {
+    margin-bottom: 2px;
+}
+
+.montoList {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed > li {
+    text-indent: -5px;
+}
+
+ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+.EXPheader {
+    margin-top: 45px;
+}
